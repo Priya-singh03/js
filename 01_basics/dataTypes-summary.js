@@ -21,6 +21,7 @@ console.log(id==anotherId);
 //arrays,objects,fxn
 //dataTypes fxn obj
 
+
 const heros=["skhatiman","nagraj","doga"]   //arrays rep
 
 let myObj={
@@ -37,4 +38,31 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof scoreValue);
 console.log(typeof heros);
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++
+
+//stack (premitive memory use hoti hai)  stack ke andr kuch bhi lenge vo copy milega
+//heap(non-premitive) heap ke andr origin value milti hai usi ke andr chnage hote hai
+
+let myYoutubename = "priyasinghdotcom"
+let anotherName = myYoutubename
+anotherName= "chaiorcode"
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne={
+    email: "priya@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="user@google.com"
+console.log(userOne);
+console.log(userTwo);
+
 
