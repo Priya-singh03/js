@@ -1,0 +1,57 @@
+// javascript(single threded) execution context
+// {}<--global  execution context{this}
+// 2. function execution context
+// 3. eval execution context
+
+
+// 1. memory creation phase (esme me jo bhi variable waigra hai uske liye memory allocate hopti hai)
+// 2.execution phase
+
+// let val1 = 9
+// let val2 = 5
+// function addnum(num1,num2){
+//     let total = num1+num2
+//     return total
+// }
+// let result1 = addnum(val1,val2)
+// let result2 = addnum(8,7)
+
+
+1. global execution (this)
+2. memory phase 
+   (
+    val1 -> undefined
+    val2 -> undefined
+    addnum -> defination
+    result1->undefined
+    result2->undefined
+   )
+
+//  3.execution   phase
+//   (
+//     val1 <- 9
+//     val2 <- 5
+//     addnum --> |__________________|
+//                | new variable    |
+//                |  enviornment +  |
+//                | execution       |
+//                | thread          |
+//               _|__________________|
+    //  result1<--14
+    //  result2<--15
+//   ) 
+
+// ab box ke andr wala ka two parent
+// 1.memory phase(
+//     val1->undefined
+//     val2->undefined
+//     total->undefined
+// )
+// 2. execution phase{
+//     val1 <- 9
+//     val2 <- 5
+//     total<- 14
+// }
+// box ka kaam ho jane ke baad delete bhi ho jata HTMLDetailsElement
+
+//result 2 ke liye box bnega and memory phase and execution phase hoga
