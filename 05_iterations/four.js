@@ -1,3 +1,5 @@
+//forin
+
 const myObject ={
     js: 'javascript',
     cpp: 'c++',
