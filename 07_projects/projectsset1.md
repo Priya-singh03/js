@@ -5,7 +5,7 @@
 
 # solution code
 
-## project 1
+## Project 1
 
 ```javascript
 const colorDivs = document.querySelectorAll("#myid3 div");
@@ -19,7 +19,7 @@ colorDivs.forEach(div => {
 
 
 ```
-##project 2
+## Project 2
 
 ```javascript
 const form = document.querySelector('form');
@@ -51,6 +51,18 @@ form.addEventListener('submit', function(e) {
     Result.innerHTML += `<span>Your weight is Overweight</span>`;
   }
 });
+
+
+```
+## Project 3
+```javascript
+const clock = document.getElementById('clock');
+//const clock = document.querySelector('#clock');
+
+setInterval(function(){
+    let date = new Date();
+    clock.innerHTML = date.toLocaleTimeString();
+},1000);
 
 
 ```
