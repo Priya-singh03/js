@@ -1,0 +1,24 @@
+#myid1{
+    display: flex;
+    justify-content: center;
+    
+}
+#myid2{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.myclass2{
+    display: block;
+    margin-top: 20px;
+}
+/* .myclass3{
+    display: block;
+    margin-top: 20px;
+    
+} */
+.gap{
+    margin-right: 5px;
+}
