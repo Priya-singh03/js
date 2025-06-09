@@ -1,0 +1,60 @@
+#myid1{
+  display: flex;
+  justify-content: center;
+ 
+}
+.gap{
+    margin-right: 10px;
+}
+#myid2{
+  display: flex;
+  justify-content: center
+}
+
+#myid3{
+  display: flex;
+   height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#myid4{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.mydiv1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 5px;
+}
+.mydiv2{
+     height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 5px;
+}
+.mydiv3{
+     height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    margin-left: 5px;
+}
+.mydiv4{
+     height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    margin-left: 5px;
+}
+.mydiv5{
+     height: 100px;
+     width: 100px;
+    background-color: yellowgreen;
+    margin-left: 5px;
+}
