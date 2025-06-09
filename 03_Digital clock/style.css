@@ -1,0 +1,33 @@
+#myid1{
+   display: flex;
+  justify-content: center; 
+ 
+}
+.myclass1{
+    margin-right: 5px;
+}
+#myid2{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+    margin-top: 10px;
+}
+.myclass2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.myclass3{
+   height: 20px;
+   width: 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: cornflowerblue;
+    margin-top: 5px;
+}
